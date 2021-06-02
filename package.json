@@ -1,0 +1,17 @@
+{
+	"name": "test-mongodb-requests",
+	"version": "1.0.0",
+	"description": "",
+	"main": "mongoClient.js",
+	"scripts": {
+		"save": "nodemon benchmark_save.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"dotenv": "^10.0.0",
+		"mongoose": "^5.12.12",
+		"nodemon": "^2.0.7"
+	}
+}
