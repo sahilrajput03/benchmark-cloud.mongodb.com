@@ -4,7 +4,8 @@
 	"description": "",
 	"main": "mongoClient.js",
 	"scripts": {
-		"save": "nodemon benchmark_save.js"
+		"save": "nodemon benchmark_save.js",
+		"get": "nodemon benchmark_get.js"
 	},
 	"keywords": [],
 	"author": "",

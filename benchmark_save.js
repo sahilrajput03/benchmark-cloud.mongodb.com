@@ -15,9 +15,6 @@ const savePromise = async (id) => {
 		comments: `${id}_Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque consectetur at autem minus, doloribus velit aut culpa similique dolorem sequi! Vel exercitationem obcaecati voluptatem velit fuga beatae numquam! Temporibus nihil earum repudiandae aliquid dolorum expedita porro provident, aliquam fugit quos eius, ipsa sit voluptatibus sapiente officiis rem hic totam ipsam.`,
 	})
 
-	// let timerLabel = `Document ${id} save time`
-	// console.time(timerLabel)
-
 	const t0 = performance.now()
 
 	console.log(`🚀︎ Document ${id} save request SENT`)
